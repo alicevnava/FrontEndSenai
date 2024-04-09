@@ -14,7 +14,7 @@ body {
     padding: 30px 0px;
     display: flex;
 }
-
+/* dividir o cabeçalho em dois para poder ajustar melhor e ai cada u ficou com metade */
 .ladoscabecalho {
     width: 50%;
 }
