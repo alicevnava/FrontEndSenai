@@ -1,0 +1,14 @@
+/* css do prixe grande */
+/* cores #e8e6e6 (cinza); #ffffff (branco); #000000 (preto)  */
+
+
+/* cabeçalho */
+header {
+    background-color:red ;
+}
+
+#header {
+    background-color: red;
+    width: 50px;
+    height: auto;
+}
