@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(152, 123, 93);
+    display: flex; 
+    color: white;
+}
+ header aside {
+     width: 50%;
+ }
+
+/* logo site */
+#logo {
+    width: 50px;
+    height: 50px;      
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* nav bar */
+#navbar {
+    background-color: wheat;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+/* links navbar */
+nav a {
+    background-color: wheat;
+    color: brown;
+    text-decoration: none;
+    padding:0px 10px;
+    font-weight: bold;
+}
+
+ /* main */
+ /* div que contem texto e imagem */
+#text {
+    background-color: white;
+    width: 90%;
+    height: 750px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+/* título da seção */
+#title {
+    margin-top: 30px 500;
+    align-items: center;
+ 
+}
+
+
+#imgcafe {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+ /* lista */
+.titlelist {
+    color: blueviolet;
+    margin-left: 25px;
+    padding: 10px ;
+    
+
+}
+ .itemlist {
+     color: brown;
+     margin-left: 50px;
+}
+.textlist {
+    color: blue;
+    margin: 25px;
+    align-items: center;
+}
+
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}

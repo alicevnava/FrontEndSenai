@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="index.css">
+<link rel="shortcut icon" href="lista.png" type="image/x-icon"></head>
+<body>
+
+    <header><b>HEADER</b></header>  
+    <div class="topico">
+        <!-- lista não ordenada: a ordem não importa -->
+        <!-- type: circle, disc, square -->
+        <ul type ="circle" >
+            <h5>Lista de Compras</h5>
+            <li>Arroz</li>
+            <li>Farofa </li>
+            <li>Chocolate</li>
+            <li>Ovo</li>
+            <li>Feijão</li> 
+            <li>Carne</li> 
+        </ul>
+        <br>
+        <ul type =" square">
+            <h4>Lista não ordenada</h4> 
+            <li>Lista na qual a ordem dos itens não importa</li>
+            <li>UL = Unordered List</li>
+        </ul>
+    </div>
+
+    <div class="topico">
+        <!-- lista ordenada: a ordem importa -->
+        <!-- type muda o indicador da lista -->
+        <ol type="a">
+            <h5>Lista de Viagem</h5>
+            <li>Comprar passagem</li>
+            <li>Reservar hotel</li>
+            <li>Fazer Roteiro</li>
+            <li>Verificar documenos</li>
+            <li>Fazer as malas</li>
+        </ol>
+        <br>
+        <ol type="I">
+            <h4>Lista ordenada</h4> 
+            <li>Lista na qual a ordem dos itens importa e deve ser seguida</li>
+            <li>OL = Ordered List</li>
+        </ol>
+    </div>
+
+    <div class="topico">
+        <!-- lista de descrição - dicionário -->
+        <!-- entrou em desuso, precisa ser configurado no CSS -->
+        <dl>
+            <dt>Description List</dt>
+                <dd>Lista de termos, a qual é montada pelo termo e a descrição</dd>
+            <dt>Título = dt</dt>
+                <dd>Definição da descrição = dd</dd>
+        </dl>
+    </div>
+
+    <!-- é possível juntar listas, desde que organizadas -->
+    <div class="topico">
+        <dl>
+            <dt>Diablo</dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                <ul style="padding: 0px 35px;">
+                    <h4>Requistos</h4>
+                    <li>Placa de Vídeo</li>
+                    <li>Processador</li>
+                    <li>Placa mãe</li>
+                </ul>
+        </dl>
+    </div>
+    
+    <!-- tagas importantes - navegador já interpreta -->
+    <h4 style="text-align:center ;">Divisões Importantes</h4>
+        <img src="divisões.png" alt="divisões">
+    <!-- <header></header> -->
+    <!-- <main></main> conteúdo -->
+    <!-- <footer></footer> -->
+    <!-- <section></section> seção do site-->
+    <!-- <nav></nav> parte de navegação -->
+    <!-- <aside></aside> elemento lateral OU ao redor do main -->
+    <footer>FOOTER</footer>
+    </body>
+</html>
