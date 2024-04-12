@@ -1,0 +1,74 @@
+/* configuração padrão - FIXO */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* tem que chamar e definir animação */
+#caixa {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(205, 160, 247);
+    position: absolute;
+    animation-name: pertubacao;
+    animation-duration: 5s;
+}
+ /* animações */
+ /* caixa vai ficar andando pela tela e mostrando as imagens
+ pode colocar multiplos animações em um elemento*/
+
+@keyframes pertubacao {
+    0% {
+        top: 5%;
+        background-image: url(../imgs/aguadisney.jpg);
+        background-size: cover;
+    }
+    25%{
+        top: 20%;
+        
+        background-image: url(../imgs/fireworks.jpg);
+        background-size: cover;
+    }
+    50% {
+        top:30%;
+        background-image: url(../imgs/roda_gigante.jpg);
+        background-size:cover ;
+    }
+}
+
+/* primeiroo keyframe é puxado no css */
+/* keyframe nome identificador e o tudo o q o elemento vai fazer. Precisa ser chamada */
+/* muda cor do elemento */
+@keyframes mudacor {
+    /* estado inicial da animação. "PLAY" */
+    /* etapas são definidas por porcentagem % */
+    0% { 
+        color: rgb(55, 55, 141);
+    }
+    25% {
+        color: rgb(187, 82, 173);
+    }
+    50% {
+        color: rgb(80, 211, 171);
+    }
+    75% {
+        color: rgb(206, 192, 69);
+    }
+    100% {
+        color: rgb(55, 55, 141);
+    }
+}
+
+/* chamando nome da animação.
+tem que ter duração */
+h1 {
+    animation-name: mudacor;
+    animation-duration: 5s;
+    /* tempo antes de iniciar */
+    animation-delay: 1s;
+    /* quantas vezes vai rodar */
+    animation-iteration-count: 3;
+}
+
+/* animation: name, duartion, time, delay */
+/* animation: pertubacao 5s infinite  */
