@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    }
+
+/* alinhar conteúdo */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* imagem */
+img {
+    width: 395px;
+    height: auto;
+}
+
+/* formulários */
+/* retirada das bordas e linha abaixo */
+input {
+    width: 395px;
+    border: none;
+    border-bottom: 1px solid rgb(156, 148, 148);
+}
+
+/* botão */
+button {
+    background-color: rgb(59, 168, 168);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+/* tabela */
+/* bordas da tabela */
+table {
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 2px solid rgb(156, 148, 148);
+    padding: 8px;
+
+}
+
+
+
+

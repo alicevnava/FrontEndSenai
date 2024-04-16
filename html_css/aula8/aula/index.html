@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="tabela.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- auxílio ao usuário acessar rapidamente as informações -->
+    <!-- nas tabelas se monta as linhas e depois as colunas -->
+    <table>
+        <!-- table row - linha -->
+        <!-- primeira linha tabela -->
+        <tr> 
+            <!-- table heading - título -->
+            <th>--</th>
+            <th> A </th>
+            <th >B </th>
+            <th> C </th>
+        </tr>
+         <!-- segunda linha tabela -->
+        <tr>
+            <th>1</th>
+            <!-- table data - dados -->
+            <td>Victor</td>
+            <td>Leo</td>
+            <td>Bruno</td>
+        </tr>
+        <!-- terceira linha tabela -->
+        <tr>
+            <th>2</th>
+            <td>Alessandra</td>
+            <td>Lucas</td>
+            <td>Jimmy</td>
+        </tr>
+    </table>
+    <!-- linha horizontal -->
+    <br>
+    <hr> 
+    <br>
+    <h3>Notas de Alunos</h3>
+    <table>
+        <thead>
+            <th></th>
+            <th> Nome </th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Alessandra</td>
+                <td>8</td>
+                <td>5</td>
+                <td>9</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>João</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Anna</td>
+                <td>8</td>
+                <td>6</td>
+                <td>4</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lucas</td>
+                <td>6</td>
+                <td>9</td>
+                <td>5</td>
+
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <!-- expansor de coluna - colspan (colunas vazias)
+            expansor de linha - rowspan (linhas vazias) -->
+            <th colspan="4" rowspan="">Média</th>
+            <td>8</td>
+            <!-- <tr>
+                <td>teste</td>
+            </tr> -->
+            
+        </tfoot>
+    </table>
+
+    <input type="text">
+    <!-- habilitar scroll -->
+    <div id="abreScroll"></div>
+
+ 
+
+</body>
+</html>

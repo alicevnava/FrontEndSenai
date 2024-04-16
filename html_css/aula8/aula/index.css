@@ -1,0 +1,92 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* estilização e formatação tabela*/
+
+table {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+
+}
+
+th,td {
+    border: 2px solid black;
+    padding: 8px;
+
+}
+th {
+    color: rgb(192, 119, 24);
+    background-color: azure;
+}
+
+td {
+    background-color: rgb(88, 212, 212);
+    transition:1s ;
+}
+/* quando o mouse passa por cima */
+/* subclasse */
+th:hover {
+    background-color: blueviolet;
+
+}
+/* ao clicar */
+td:active {
+    border: 2px solid red;
+    transition: 0.2s;
+   
+}
+
+/* "criar" mais tela */
+#abreScroll {
+    width: 1px;
+    height: 20000px;
+}
+
+thead {
+    /* posicionar o cabeçalho sempre na vista do usuário */
+    position: sticky;
+    top: -1px;
+    
+}
+/* th sem contéudo */
+th:empty {
+    background-color: transparent;
+    border: none;
+}
+
+/* é possível unir ao keyframes */
+@keyframes efeito {
+    /* pode usar border: 1px solid cor - funciona igual */
+    0% {
+        background-color:  rgb(187, 59, 59);
+    }
+    25% {
+        background-color: rgb(189, 180, 65);
+    }
+    50% {
+        background-color: rgb(63, 187, 100);
+    }
+    75% {
+        background-color: rgb(140, 78, 211);
+    }
+    100% {
+        background-color: rgb(78, 140, 211);
+    }
+}
+
+input {
+    border: none;
+    border: 1px solid black;
+    
+}
+
+/* ao selecionar */
+input:focus {
+    border: none;
+    animation: efeito 2s infinite;
+    /* tirar borda */
+    outline: none;
+    
+}
