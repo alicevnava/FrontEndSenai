@@ -1,0 +1,21 @@
+/* chamar a fonte. Nome da fonte (variável) e de onde vem*/
+@font-face {
+    font-family:Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:Hello ;
+    src: url(fonts/hello/Hello.otf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto;
+}
+
+h1, h2, h3,h4,h5,h6 {
+    font-family: Hello;
+}
+
