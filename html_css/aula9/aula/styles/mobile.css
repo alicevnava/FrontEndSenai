@@ -1,0 +1,49 @@
+header {
+    justify-content: center;
+
+}
+
+#menuMobile {
+ flex-direction: column;
+ width: 80%;
+ align-items: center;
+ display: none;
+}
+
+li {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+li:hover {
+    border-radius: 10px;
+    background-color: rgb(196, 186, 174);
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+}
+
+/* quando estiver na resolução definida - menu do pc some */
+#menuPc {
+    display: none;
+}
+
+#btnMobile {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+/* alinhar a img de menu */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

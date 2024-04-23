@@ -1,0 +1,74 @@
+/*  COR CINZA */
+/* background-color: #2A2B2A; */
+
+/* COR ROSA */
+/* background-color: #F5124B;  */
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* cabeçalho */
+header {
+    width: 100%;
+    height: 100px 0px;
+    background-color: #2A2B2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+ul header {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 20px;
+}
+
+/* rodapé */
+footer {
+    width: 100%;
+    height: 15px;
+    background-color: #2A2B2A;
+    color: white;
+    justify-content: center;
+}
+
+/* imagens */
+#imgCentral {
+    width: 90%;
+    height: 500px;
+}
+
+#imgArt{
+    width: 5%;
+    height: 100px;
+}
+
+/* botões */
+#btnSobre {
+    background-color: #F5124B;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+/* divisórias horizontais */
+hr {
+    background-color:#F5124B;
+    height: 2px;
+    width: 500px;
+    border: none;
+}

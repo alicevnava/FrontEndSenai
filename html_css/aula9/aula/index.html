@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <!-- css geral -->
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- css mobile - tem que adicionar media -->
+    <link rel="stylesheet" media="screen and (max-width: 860px)" href="styles/mobile.css">
+    <!-- Para quando o usuário for imprimir a tela -->
+    <link rel="stylesheet" media="print" href="styles/teste.css">
+    <!-- para quando mudar a posição do celular -->
+    <!-- portrait: em pé;  landscape: deitado-->
+    <link rel="stylesheet" href="styles/teste.css" media="screen and (orientation: portrait)">
+</head>
+<body>
+    <header>
+        <nav >
+            <!-- quando o usuario clicar, vai chamar a função -->
+            <button type="button" id="btnMobile" onclick="btnMobileTroca()">
+                <img src="imgs/menuIcon.svg" alt="menu icon">
+            </button>
+            <ul id="menuMobile">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>                
+            </ul>
+            <ul id="menuPc">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- não precisa chamar img. Tem endereçamento diferente com cada resolução -->
+        <picture>
+            <!-- foco da imagem muda ao atingr X tamanho de tela -->
+            <source media="screen and (max-width: 860px)" srcset="imgs/mulherdancandoMenor.jpg" alt="muler dançando">
+             <img src="imgs/mulherdancando.jpg" alt="Mulher dançando">
+        </picture>
+       
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error alias amet repellendus possimus ipsam cum quia similique! Culpa, odio quam. Consequuntur nihil culpa dicta illo veniam deserunt itaque quod!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit voluptates at nisi, dolores iste quasi sequi iure quis dignissimos laudantium itaque ab eaque, laboriosam aliquid corrupti incidunt est eos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint dolore nihil ad atque dolor fugiat asperiores consectetur inventore perferendis sunt modi vitae, aliquid praesentium odio ex officiis reprehenderit. Pariatur?</p>
+    </main>
+    <footer>
+        Todos os direitos reservados © 
+    </footer>
+
+
+    <!-- Java Script -->
+    <script>
+        // precisa ser chamado no html - no clique do button chamar a função
+        function btnMobileTroca() {
+            // se menu mobile estiver FLEX colocar ele NONE
+            if (menuMobile.style.display == "flex"){
+                menuMobile.style.display = "none";
+                // se não tiver FLEX colocar flex
+            } else {
+                menuMobile.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+</html>

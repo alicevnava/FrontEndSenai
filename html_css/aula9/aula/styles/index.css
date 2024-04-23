@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+/* some na tela de PC */
+#menuMobile {
+    display: none;
+}
+#btnMobile {
+    display: none;
+}
+
+
+/* cabeçalho */
+header {
+    width: 100%;
+    padding: 5px 0px;
+    background-color:cadetblue ;
+    display: flex;
+    justify-content: start;     /* ou left */
+}
+
+ul {
+    /* coloca os links um do lado do outro */
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 20px;
+}
+
+/* corpo */
+main {
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img {
+    width: 90%;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    padding: 10px o px;
+}
+
+
+/* responsividade - dinamismo*/
+/* verifica a width da tela e  ai aplica ou não essa personalização - condição*/
+/* quando a tela alcançar essa reoslução X coisa acontece */
+@media screen and (max-width: 860px) {
+    /* body {
+        background-color: rgb(74, 231, 205);
+    }*/
+    main {
+        width: 80%;
+    }
+} 
