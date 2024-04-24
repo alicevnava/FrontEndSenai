@@ -34,11 +34,16 @@ button {
     height: 30px;
     border: none;
 }
+#btnCalc {
+    justify-content: center; 
+    align-items: center;
+}
 
 /* tabela */
 /* bordas da tabela */
 table {
     border-collapse: collapse;
+   
 }
 
 th,td {
