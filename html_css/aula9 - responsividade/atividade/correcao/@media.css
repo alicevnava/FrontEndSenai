@@ -1,0 +1,38 @@
+#catalogoItens {
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    width: 80%;
+}
+
+#menuPc {
+    display: none;
+}
+
+#btnMobile {
+    display: flex;
+    border: none;
+    border: 1px solid;
+    display: flex;
+    background-color: transparent;
+    color: var(--branco);
+}
+
+#menuMobile {
+    /* só colocar none depois e ajustar todo ele */
+    display: none;
+    width: 100%;
+    background-color: var(--corPrimaria);
+    justify-content: center;
+}
+
+#menuMobile ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0px;
+}

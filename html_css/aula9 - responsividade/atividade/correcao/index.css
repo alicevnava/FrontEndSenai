@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+/* escopo geral - variáveis pro todo código acessar */
+:root {
+  --corPrimaria:#2A2B2A;
+  --corSecundaria: #f5124B;
+  --fontePrincipal: 'Trebuchet MS';
+  --tamanhoFonteTitulo: 24pt;
+  --branco:#ecebeb;
+  --preto: #1c1c1c;
+
+
+}
+
+header, footer {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    background-color: var( --corPrimaria);
+    color: var(--branco);
+}
+header{
+    justify-content: space-around;
+}
+header ul {
+    /* colocar um link do lado do outro */
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+section{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+hr {
+    width: 80%;
+    border: none;
+    border: 1px solid var(--corSecundaria);
+}
+#catalogoItens {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    gap:10px;
+}
+.item img {
+    width: 80%;
+
+}
+ footer{
+     justify-content: center;
+ }
+
+ #menuMobile {
+    display: none
+}
+#btnMobile {
+    display: none;
+}
+
+#elizabeth img {
+    width: 100%;
+}
+
+#elizabeth {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid black;
+    gap: 30px;
+    padding: 20px;
+}
+
+#artigo {
+    gap: 20px;
+}
+
+button {
+    background-color: var(--corSecundaria) ;
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
