@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(236, 223, 207);
+}
+
+#cadastro {
+    background-color: rgb(102, 192, 219);
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+#cadastro input {
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 2px;
+}
+
+button {
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(99, 99, 199);
+    background-color: rgb(108, 197, 168);
+}
+
+#btnCadastro {
+    text-align: center;
+}
