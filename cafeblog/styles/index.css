@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+
+body {
+    background-color:rgb(235, 235, 235) ;
+}
+#logo {
+    width: 50px;
+    height: 40px;
+   margin-left: 20px;
+}
+
+#logoblog {
+    width: 100%;
+    height: 40px;
+    background-color:rgb(152, 123, 93) ;
+    color: white
+}
+
+header p {
+    position: relative;
+    left: 50%;
+    bottom: 30px;
+
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    
+}
+
+#navbar {
+    background-color: wheat;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    bottom:25px ;
+}
+
+li {
+    font-weight: bold;
+}
+
+#principal {
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    background-color: blue;
+
+}
+
+main img {
+    width: 50%;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px; 
+}
+
+
+    
