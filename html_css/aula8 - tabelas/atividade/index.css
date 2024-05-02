@@ -37,6 +37,8 @@ button {
 #btnCalc {
     justify-content: center; 
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* tabela */
