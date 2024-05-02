@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <h1>Dados do Currículo</h1>
+    <div class="container">
+        <div id="formulario">
+            <form action="#" method="get">
+                <h3>Dados Pessoais</h3>
+                <label for="nome">Nome Completo:</label>
+                <br>
+                <input type="text" id="nome" name="nome" placeholder="Fulano da Silva" required>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email"  placeholder="nome@email.com" required>
+                <br>
+                <label for="telefone" >Telefone:</label>
+                <br>
+                <input type="tel" id="telefone"  placeholder="(XX) XXXX-XXXX" maxlength="" required>
+                <br>
+                <label for="telefone" >CPF:</label>
+                <br>
+                <input type="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX" maxlength="" required>
+
+                <h3>Endereço</h3>
+                <label for="endereco">Endereço:</label>
+                <br>
+                <input type="text" id="endereco" name="endereco" required>
+                <br>
+                <label for="cidade">Cidade:</label>
+                <br>
+                <input type="text" id="cidade" name="cidade" required>
+                <br>
+                <label for="estado">Estado:</label>
+                <br>
+                <input type="text" id="estado" name="estado" required>
+                <br>
+                <label for="cep">CEP:</label>
+                <br>
+                <input type="text" id="cep" name="cep" required>
+
+                <h3>Formação acadêmica</h3>
+                <label for="curso">Curso:</label>
+                <br>
+                <input type="text" id="curso" name="curso" required>
+                <br>
+                <label for="instituicao">Instituição:</label>
+                <br>
+                <input type="text" id="instituicao" name="instituicao" required>
+                <br>
+                <label for="ano">Ano de Conclusão:</label>
+                <br>
+                <input type="number" id="ano" name="ano" required>
+                <br>
+                <label for="objetivo">Objetivo:</label>
+                <br>
+                <textarea id="objetivo" name="objetivo" required></textarea>
+                <br>
+                <label for="experiencia">Experiência Profissional:</label>
+                <br>
+                <textarea id="experiencia" name="experiencia" required></textarea>
+                <br>
+                <label for="cursos">Cursos Complementares:</label>
+                <br>
+                <textarea id="cursos" name="cursos" required></textarea>
+                <br>
+                <div id="btnSubmit">
+                     <button type="submit">Enviar dados</button>
+                </div>
+               
+            </form>
+        </div>
+    </div>
+</body>
+</html>
