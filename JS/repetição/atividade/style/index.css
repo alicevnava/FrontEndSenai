@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* card */
+.filme{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(182, 201, 241);
+    width: 400px;
+    margin: 20px;
+    border: 1px solid rgb(105, 148, 241);
+    box-shadow: 5px 5px 10px rgb(180, 180,180);
+    gap: 15px;
+    border-radius: 10px;
+}
+
+/* botão */
+.verMais{
+    padding: 10px;
+    background-color: rgb(105, 148, 241);
+    border: none;
+    border: 1px solid rgb(74, 104, 170);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.verMais:hover{
+    background-color:  rgb(74, 104, 170);
+    border: 1px solid rgb(105, 148, 241);
+    color:rgb(159, 190, 255);
+}
+
+.grupoFilmes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
