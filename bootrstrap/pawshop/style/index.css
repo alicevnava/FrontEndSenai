@@ -1,0 +1,140 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+:root {
+    --azul: #6EB3D0;
+    --rosa: #F7B6D2;
+    --laranja: #F4A623;
+    ---preto:#000000;
+    --branco: #FFFFFF;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 35px;
+    background-color: var(--azul);
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 5px;
+}
+/* cabeçalho */
+.nav-link{
+    color: var(---preto);
+    font-weight: bold;
+}
+
+.bg-light{
+    background-color: red;
+}
+
+.custom-navbar{
+    background-color: var(--azul);
+}
+
+
+/* banner */
+#banner img{
+    width:100%;
+    margin-top: 10px;
+}
+
+/* petisco ou comida */
+#titleFood{
+    color: var(--azul);
+    text-align: center;
+    margin: 20px;
+}
+
+#textPetisco{
+    color: var(--azul);
+    text-align: center;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+/* catalogo */
+#titleCatalogo{
+    color: var(--laranja);
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+#produtos{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-title{
+    color: var(--laranja);
+    text-align: center;
+}
+
+.card-text{
+    font-size: 12px;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.preco{
+    text-align: center;
+}
+
+.valor{
+    color: green;
+    font-size: 20px;
+}
+
+/* adoção */
+#titleAdocao{
+    color: var(--rosa);
+    margin: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#infos{
+    color: var(--azul);
+    margin-left: 100px;
+}
+
+#formInfo{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+}
+
+
+#btnSend{
+    background-color: var(--azul);
+    border: none;
+    border-radius:5px;
+    padding: 15px 20px;
+
+}
+
+#btnInfo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#adocao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
