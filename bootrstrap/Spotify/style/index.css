@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* colors */
+:root{
+    --darkgreen: #1db954;
+    --lightgreen: #1ed760;
+    --white: #ffff;
+    --black: #191414;
+    --lightbg: --#5C2F47;
+    --middlebg:#29141F;
+    --darkbg: #090407;
+    --gray: #282828;
+}
