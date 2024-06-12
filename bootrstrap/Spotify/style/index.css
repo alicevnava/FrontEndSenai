@@ -13,19 +13,85 @@
     --middlebg:#29141F;
     --darkbg: #090407;
     --gray: #282828;
+    --purple: #311925;
+
+}
+@font-face {
+    font-family: spotify;
+    src: url(../Fonte/gotham/GothamMedium_1.ttf);
+}
+.gradient-bg {
+    background: linear-gradient(to bottom, #663c51 , #311925);
+}
+.nav-item{
+    font-family: spotify;
 }
 
-
-
+h2, h6{
+    color: var(--white);
+    font-family:spotify ;
+}
 .title-winding{
     text-align: center;
 }
 
+
 .title-section{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 #winding{
     margin-left: 50px;
     margin-right: 50px;
 }
+.title-winding{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: var(--gray);
+    margin-top: 50px;
+}
+
+.icons{
+    width: 25px;
+    height:25px;
+    margin-left: 10px;
+    opacity: 75%;
+}
+
+#container-timer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+#progress{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.timer{
+    color: white;
+    opacity: 75%;
+
+}
+
+#menu {
+    position: relative;
+    margin-left: 90%;
+    bottom: 44px;
+}
+
+
+
+.container{
+    margin-left: 0px;
+}
+.menu-option{
+    color: var(--white) !important;
+}
+
