@@ -11,16 +11,19 @@
 
 </head>
 
-<body>
+<body  style="background: linear-gradient(180deg, rgba(136,159,110,1) 24%, rgba(40,54,24,1) 83%);">
     <header style="background-color: black;">
         <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Sobre Nós</button>
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                <a href="#"><button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+                    role="tab" aria-controls="nav-home" aria-selected="true">Home</button></a>
+                <a href="about.html"><button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Sobre Nós</button></a>
+                <a href="colecao.html">
+                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
                     type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Coleções</button>
+                </a>
+                
             </div>
         </nav>
     </header>
@@ -91,49 +94,53 @@
         </div>
 
         <!-- infantil -->
-        <div class="card text-bg-dark" style="width: 50%; margin-top: 80px; display: flex; margin-left: 5%;">
-            <img src="imgs/kids.jpg" class="card-img" alt="espaço kids" style="height: 400px;">
-            <div class="card-img-overlay">
-                <h5 class="card-title">Espaço Kids</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo unde quo est
-                    recusandae.
-                    <br> Deserunt aliquid porro molestias quos cum reprehenderit unde quisquam, pariatur culpa atque
-                    iure. Perferendis, illum?</p>
+            <div class="card text-bg-dark" style="width: 40%; display: flex; margin-left: 10%; margin-top: 40px;">
+                <img src="imgs/kids.jpg" class="card-img" alt="espaço kids" style="height: 400px;">
+                <div class="card-img-overlay" >
+                    <h5 class="card-title">Espaço Kids</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo unde quo est
+                        recusandae.
+                        <br> Deserunt aliquid porro molestias quos cum reprehenderit unde quisquam, pariatur culpa atque
+                        iure. Perferendis, illum?</p>
+                </div>
             </div>
-        </div>
-        <!-- eventos -->
-        <div class="card text-bg-dark" style="width: 50%; margin-top: 80px; display: flex; margin-left:45%;">
-            <img src="imgs/orquestra.jpg" class="card-img" alt="eventos" style="height: 400px;">
-            <div class="card-img-overlay">
-                <h5 class="card-title">Eventos</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo unde quo est
-                    recusandae.
-                    <br> Deserunt aliquid porro molestias quos cum reprehenderit unde quisquam, pariatur culpa atque
-                    iure. Perferendis, illum?</p>
+
+            <!-- eventos -->
+            <div class="card text-bg-dark" style="width: 40%; margin-top: 80px; display: flex; margin-left:55%;">
+                <img src="imgs/orquestra.jpg" class="card-img" alt="eventos" style="height: 400px;">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Eventos</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo unde quo est
+                        recusandae.
+                        <br> Deserunt aliquid porro molestias quos cum reprehenderit unde quisquam, pariatur culpa atque
+                        iure. Perferendis, illum?</p>
+                </div>
             </div>
-        </div>
-        <!-- workshops -->
-        <div class="card text-bg-dark" style="width: 50%; margin-top: 80px; display: flex; margin-left: 5%;">
-            <img src="imgs/workshop.jpg" class="card-img" alt="eventos" style="height: 400px;">
-            <div class="card-img-overlay">
-                <h5 class="card-title">WorkShops</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo unde quo est
-                    recusandae.
-                    <br> Deserunt aliquid porro molestias quos cum reprehenderit unde quisquam, pariatur culpa atque
-                    iure. Perferendis, illum?</p>
+            <!-- workshops -->
+            <div class="card text-bg-dark" style="width: 40%; margin-top: 80px; display: flex; margin-left: 10%; margin-bottom: 20px;">
+                <img src="imgs/workshop.jpg" class="card-img" alt="eventos" style="height: 400px;">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">WorkShops</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo unde quo est
+                        recusandae.
+                        <br> Deserunt aliquid porro molestias quos cum reprehenderit unde quisquam, pariatur culpa atque
+                        iure. Perferendis, illum?</p>
+                </div>
             </div>
-        </div>
     </main>
 
-   
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top" style="background-color: black; margin-top: 20PX;">
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3"
+        style="background-color: black; padding-top:20px;" >
         <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <p style="color: #DAA520;" >Museu Vivas Nava ©</p>
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <p style="color: #DAA520;">Museu Vivas Nava ©</p>
         </div>
-      </footer>
+    </footer>
 
     <!-- js bootstap -->
     <!-- jQuery, Popper.js, and Bootstrap JS -->
