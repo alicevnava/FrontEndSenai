@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salario Familia</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <main>
-        <img  id="banner" src="images/salario-familia.jpg" alt="">
+        <img  id="banner" src="img/salario-familia.jpg" alt="">
 
         <form action="#">
-            <input type="text" id="empregado" placeholder="Empregado">
+            <input type="text" id="empregado"  placeholder="Nome">
             <hr>
             <input type="number" id="filho" placeholder="Quantidade de filhos menores que 14 anos ou inválidos">
             <hr>
@@ -38,10 +38,12 @@
                 <td>Não há</td>
             </tr>
         </table>
-
-        <button type="button" id="calcular">CALCULAR</button>
+        <div style="display: flex;justify-content: center;"> 
+            <button type="button" id="calcular">CALCULAR</button>
+        </div>
+        
         
     </main>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto</title>
+</head>
+    <style>
+        body{
+            background-color: beige;
+        }
+
+        button{
+            background-color: rgb(198, 255, 255);
+            border: none;
+            border: 2px solid rgb(112, 112, 236);
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        h1{
+            color: rgb(112, 112, 236);  
+        }
+
+        hr{
+            width: 15%;
+
+        }
+        body{
+            text-align: center;
+        }
+    </style>
+<body>
+
+    <h1>Informações do Carro</h1>
+        <p>Marca: <span id="marca"></span></p>
+        <hr>
+        <p>Modelo: <span id="modelo"></span></p>
+        <hr>
+        <p>Ano: <span id="ano"></span></p>
+        <hr>
+        <p>Cor: <span id="cor"></span></p>
+        <hr>
+        <p>Velocidade Máxima: <span id="velocidadeMaxima"></span> km/h</p>
+        <hr>
+        <p>Velocidade Atual: <span id="velocidadeAtual"></span> km/h</p>
+        <hr>
+    </table>
+    
+    
+
+    <button onclick="acelerarCarro(20)">Acelerar 20 km/h</button>
+    <br>
+    <button onclick="acelerarCarro(50)">Acelerar 50 km/h</button>
+    <br>
+    <button onclick="acelerarCarro(100)">Acelerar 100 km/h</button>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

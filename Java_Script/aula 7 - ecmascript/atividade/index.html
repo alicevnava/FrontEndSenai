@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcmaScript</title>
+</head>
+
+<style>
+    h2{
+        color: rgb(95, 95, 207);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 10px;
+        padding-top: 5px;
+        
+        
+    }
+    button{
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(179, 230, 236);
+        color: rgb(255, 0, 191);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input, textarea{
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    p{
+        color: rgb(214, 143, 36);
+        font-size: 17px;
+
+    }
+    label{
+        margin-left: 10px;
+    }
+    #ex1{
+        width: 25%;
+        background-color: rgb(224, 157, 157);
+        border-radius: 10px;
+    }
+    #ex2{
+        width: 25%;
+        background-color: rgb(157, 186, 224);
+        border-radius: 10px;
+    }
+    #ex3{
+        width: 25%;
+        background-color: rgb(209, 224, 157);
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <div id="ex1">
+        <h2>Escrever Textos</h2>
+        <textarea id="textoInput" rows="4" cols="50" placeholder="Digite seu texto aqui"></textarea><br>
+        <label for="alvoInput">Alvo:</label>
+        <input type="text" id="alvoInput" placeholder="Digite o alvo"><br>
+        <label for="substitutoInput">Substituto:</label>
+        <input type="text" id="substitutoInput" placeholder="Digite o substituto"><br>
+        <button onclick="replace()" style="margin-left: 10px;">Replace</button>
+        <button onclick="replaceAll()">Replace All</button>
+        <p id="resultado1"></p>
+    </div>
+   
+
+    <div id="ex2">
+          <h2>
+        Verificar Usuário ADM
+    </h2>
+    <button onclick="verificarUsuario()" style="margin-left: 10px;">Verificar Usuário</button>
+    <p id="mensagem2"></p>
+    </div>
+  
+
+    <div id="ex3">
+        <h2>
+        Pesquisa de Jogos
+        </h2>
+        <input type="text" id="pesquisaInput" placeholder="Digite o nome do jogo">
+        <br>
+        <button onclick="pesquisarJogo()" style="margin-left: 10px;">Pesquisar</button>
+        <p id="mensagem3"></p>
+    </div>
+
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>

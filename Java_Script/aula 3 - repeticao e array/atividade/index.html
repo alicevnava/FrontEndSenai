@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetição</title>
+</head>
+<style>
+    /* Filmes */
+    body {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        color: #e7a8a8;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding: 0;
+    }
+
+    li {
+        background-color: #7285dd;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        width: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+    #loginForm {
+        margin-top: 20px;
+    }
+
+    #mensagem {
+        margin-top: 10px;
+        color: rgb(98, 223, 175);
+    }
+
+    /* Estilos para os botões */
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        margin-right: 10px;
+    }
+</style>
+
+<body>
+
+    <!-- Botões -->
+    <div class="buttons">
+        <button class="button" onclick="exibirFilmes()">Filmes</button>
+        <button class="button" onclick="exibirLogin()">Login</button>
+    </div>
+
+    <!-- Filmes -->
+    <div id="filmesContainer" style="display: none;">
+        <h1>Filmes</h1>
+        <ul id="filmesList"></ul>
+    </div>
+
+    <!-- login -->
+    <div id="loginContainer" style="display: none;">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username"><br><br>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Mensagem de Feedback -->
+        <p id="mensagem"></p>
+    </div>
+
+
+    <script src="script/scripts.js"></script>
+
+</body>
+
+</html>
